@@ -1,4 +1,7 @@
-# Python dependencies for vCard Duplicate Merger
+# Python dependencies for vCard Duplicate Merger and Viewer
 # Install with: pip install -r requirements.txt
 
+# Core vCard parsing library (used by both merge_vcards.py and viewer.py)
 vobject>=0.9.6,<1.0
+
+# Note: tkinter is included with Python standard library (no separate install needed)
