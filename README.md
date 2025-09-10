@@ -2,7 +2,7 @@
 
 A comprehensive toolkit for managing vCard files, featuring duplicate merging, corruption recovery, and an advanced vCard viewer/editor.
 
-## 🛠 Tools Included
+##  Tools Included
 
 ### 1. merge_vcards.py - Advanced vCard Merger
 Merge, analyze, and export contacts from `.vcf` (vCard) files with configurable de-duplication strategies.
@@ -69,7 +69,7 @@ python -m venv .venv; .\.venv\Scripts\Activate.ps1; pip install vobject
 python -m venv .venv && source .venv/bin/activate && pip install vobject
 ```
 
-## 🛠 Requirements
+## Requirements
 - Python 3.10+
 - Dependency: `vobject`
 
@@ -78,7 +78,7 @@ Install:
 pip install vobject
 ```
 
-## � Detailed Usage
+## Detailed Usage
 
 ### merge_vcards.py - vCard Merger
 
@@ -162,7 +162,7 @@ When exporting cleaned vCards, the tool provides:
 - **Quality Validation**: Ensures exported contacts have meaningful data
 - **Recovery Rate**: Percentage of successfully recovered contacts
 
-## 🔍 Technical Details
+## Technical Details
 
 ### How Duplicate Detection Works (merge_vcards.py)
 1. Cards are parsed; any without a non-empty `FN` or that cannot be parsed increment the "malformed" count
