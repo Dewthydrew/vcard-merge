@@ -1,0 +1,4 @@
+# Python dependencies for vCard Duplicate Merger
+# Install with: pip install -r requirements.txt
+
+vobject>=0.9.6,<1.0
