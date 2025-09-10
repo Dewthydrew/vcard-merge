@@ -10,7 +10,7 @@ Merge, analyze, and export contacts from `.vcf` (vCard) files with configurable 
 ### 2. viewer.py - vCard Viewer & Corruption Recovery Tool
 A full-featured GUI application for viewing, editing, and recovering corrupted vCard files.
 
-## ✨ Features
+##  Features
 
 ### merge_vcards.py
 - GUI or headless CLI usage
@@ -32,7 +32,7 @@ A full-featured GUI application for viewing, editing, and recovering corrupted v
 - **Corruption Analysis**: Detailed reports on corruption patterns found in files
 - **Multi-format Support**: Handle various vCard versions and formats
 
-## ⚡ Quick Start
+##  Quick Start
 
 ### Install Dependencies
 ```bash
@@ -208,7 +208,7 @@ SKIP (unsafe) group key=jane doe|| size=2 (no shared email/phone)
 ```
 Use this to audit which contacts were merged or skipped.
 
-## 🧩 Choosing a Strategy
+##  Choosing a Strategy
 
 ### For merge_vcards.py
 | Scenario | Suggested Flags |
@@ -228,7 +228,7 @@ Use this to audit which contacts were merged or skipped.
 | **Format conversion** | Open file → File → Export Clean vCards (removes corruption) |
 | **Data recovery** | Open severely corrupted file → Review recovery statistics → Export rescued contacts |
 
-## 🔧 Use Cases & Examples
+##  Use Cases & Examples
 
 ### Scenario 1: Outlook Export Recovery
 Your Outlook exported a corrupted vCard file:
@@ -261,7 +261,7 @@ python merge_vcards.py -i contacts.vcf -o cleaned.vcf --safe-merge --log
 # Review the .merge_log.txt file
 ```
 
-## ❓ Troubleshooting / FAQ
+## Troubleshooting / FAQ
 
 ### merge_vcards.py Issues
 **Q: Missing contacts after merging?**  
@@ -289,7 +289,7 @@ A: This is normal for corrupted files. The export removes corruption and empty e
 **Q: How do I know if corruption recovery worked?**  
 A: The export dialog shows detailed statistics: "X contacts successfully exported, Y contacts could not be recovered, Recovery rate: Z%"
 
-## 🔄 Recent Enhancements
+## Recent Enhancements
 
 ### merge_vcards.py
 - Added CLI arguments (`--dedupe-key`, `--safe-merge`, `--no-merge`, `--log`)
@@ -305,7 +305,7 @@ A: The export dialog shows detailed statistics: "X contacts successfully exporte
 - Multi-layer export with recovery statistics
 - Support for severely damaged vCard files
 
-## 🏗 Future Enhancements
+## Future Enhancements
 - JSON / SQLite export
 - Interactive TUI review of merge groups  
 - Advanced field normalization (address comparison, fuzzy names)
@@ -313,7 +313,7 @@ A: The export dialog shows detailed statistics: "X contacts successfully exporte
 - Integration between merger and viewer tools
 - Batch processing capabilities
 
-## ⚖ License
+## License
 MIT (add a standalone `LICENSE` file if distributing publicly)
 
 ---
